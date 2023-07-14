@@ -1,0 +1,20 @@
+.search-form {
+    margin-bottom: 1rem;
+  }
+  
+.search-input {
+padding: 0.5rem;
+border-radius: 4px;
+border: 1px solid #ccc;
+margin-right: 0.5rem;
+width: 11.5rem;
+}
+
+.search-button {
+padding: 0.5rem 1rem;
+border-radius: 4px;
+background-color: #1d1b1a;
+color: #fff;
+border: none;
+}
+  

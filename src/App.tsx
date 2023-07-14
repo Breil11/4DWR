@@ -1,7 +1,8 @@
 import RouteMap from "./static/RouteMap";
+import "./App.css"
 
 function App(){
-  return <RouteMap/>
+  return <div className="containerApp"><RouteMap /></div>;
 }
 
 export default App

@@ -1,21 +1,24 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "../pages/HomePage/HomePage";
-import ProductDetails from "../pages/ProductDetails/ProductDetails";
+import DetailsPage from "../pages/DetailsPage/DetailsPage";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage />,
+  },
+  {
+    path: "/product/:id",
+    element: <DetailsPage />,
+  },
+  {
+    path: "/*",
+    element: <ErrorPage />,
+  },
+]);
 
 function RouteMap() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <HomePage />,
-      children: [
-        {
-          path: "/product",
-          element: <ProductDetails />
-        }
-      ]
-    }
-  ]);
-
   return <RouterProvider router={router} />;
 }
 
