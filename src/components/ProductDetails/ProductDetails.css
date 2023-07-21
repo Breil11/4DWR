@@ -1,0 +1,23 @@
+body {
+    background-color: #654535;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.data-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px; 
+  }
+
+.data-label {
+    font-weight: bold; 
+    width: 120px;
+}
+
+.data-value {
+    margin-left: 16px; 
+}
