@@ -21,7 +21,7 @@ function SearchForm() {
         const products = response.data.products;
         setSearchResults(products);
       } catch (error) {
-        console.error('Error fetching search results:', error);
+        console.error('Erreur de recherche: ', error);
       }
     }
   };
