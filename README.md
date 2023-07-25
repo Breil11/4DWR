@@ -8,7 +8,7 @@ ReactFoodFacts est une application web qui permet aux utilisateurs de rechercher
 Pour commencer avec ReactFoodFacts, vous pouvez suivre les instructions ci-dessous :
 
 1. Clonez le dépôt :
-   **git clone https://github.com/Breil11/r4dwr.git**
+   **git clone https://github.com/Breil11/4DWR.git**
 2. Installez les dépendances:
    **npm install** ou **yarn**
 3. Lnacez l'application:
